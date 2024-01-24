@@ -215,3 +215,31 @@ tbody td {
 .color-green {
   color: rgb(104, 203, 198);
 }
+
+/* footer */
+.footer {
+  border-top-color: rgb(122, 113, 100);
+  border-top: 2px solid #2e3241;
+  bottom: 0;
+  padding: 13px;
+  width: 100%;
+  color: rgb(156, 148, 135);
+}
+.text-center {
+  text-align: center;
+}
+.footer-items {
+  display: flex;
+  align-items: center;
+}
+.footer-text {
+  white-space: nowrap;
+  padding-right: 12px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.footer-text-link {
+  color: rgb(156, 148, 135);
+  text-decoration: none;
+}
