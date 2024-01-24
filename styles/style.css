@@ -150,9 +150,68 @@ body {
   font-weight: 400;
   font-size: 40px;
 }
-.time,.balance-title {
+.time,
+.balance-title {
   opacity: 0.45;
   font-weight: 300;
   font-size: 20px;
   color: "#5B5B66";
+}
+/* exchange */
+/* .exchange-logo {
+  height: 24px;
+  width: 24px;
+}
+
+*/
+.prices-table-container {
+  margin: 0 2%;
+}
+.prices-table-container table {
+  margin-top: 40px;
+  width: 100%;
+  color: rgb(209, 205, 199);
+  border-collapse: separate;
+  border-spacing: 0 1em;
+}
+.platform-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.platform-container img {
+  height: 24px;
+  width: 24px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+.align-center {
+  text-align: center;
+}
+thead tr th {
+  font-size: 24px;
+  letter-spacing: 1px;
+  color: #747478;
+  padding-left: 10px;
+}
+tbody tr {
+  background-color: rgb(37, 40, 52);
+}
+tbody td {
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-bottom: 15px;
+  font-size: 24px;
+  margin: 0;
+  opacity: 1;
+}
+.color-red {
+  color: rgb(220, 96, 96);
+}
+.color-green {
+  color: rgb(104, 203, 198);
 }
