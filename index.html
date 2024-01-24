@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hodlinfo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <div>
+          <h1>Hodlinfo</h1>
+        </div>
+        <div class="dropdown-parent">
+          <div class="dropdown">
+            <button
+              class="dropdown-button"
+              onclick="toggleDropdown('myDropdown')"
+            >
+              <span class="dropdown-title"> INR </span>
+              <svg
+                class="dropdown-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+              >
+                <path d="M7 10l5 5 5-5z" />
+              </svg>
+            </button>
+            <div class="dropdown-content" id="myDropdown">
+              <a href="#" class="dropdown-item">INR</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button
+              class="dropdown-button"
+              onclick="toggleDropdown('selectDropdwn')"
+            >
+              <span class="dropdown-title"> BTC </span>
+              <svg
+                class="dropdown-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+              >
+                <path d="M7 10l5 5 5-5z" />
+              </svg>
+            </button>
+            <div class="dropdown-content" id="selectDropdwn">
+              <a href="#" class="dropdown-item">BTC</a>
+              <a href="#" class="dropdown-item">ETH</a>
+              <a href="#" class="dropdown-item">USDT</a>
+              <a href="#" class="dropdown-item">XRP</a>
+              <a href="#" class="dropdown-item">TRX</a>
+              <a href="#" class="dropdown-item">DASH</a>
+              <a href="#" class="dropdown-item">ZEC</a>
+              <a href="#" class="dropdown-item">XEM</a>
+              <a href="#" class="dropdown-item">IOST</a>
+              <a href="#" class="dropdown-item">WIN</a>
+              <a href="#" class="dropdown-item">BTT</a>
+              <a href="#" class="dropdown-item">WRX</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropdown-button" onclick="toggleDropdown()">
+              <span class="dropdown-title"> BUY BTC </span>
+            </button>
+          </div>
+        </div>
+        <div>
+          <button>Connect Telegram</button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- <main>
+      <section>
+        <h2>About Me</h2>
+        <p>
+          I am a software engineer with a passion for learning new technologies.
+          I have a background in finance and I have a passion for learning new
+          technologies.
+        </p>
+      </section>
+      <section>
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Node.js</li>
+          <li>Express.js</li>
+          <li>MongoDB</li>
+          <li>MySQL</li>
+          <li>Git</li>
+          <li>Bootstrap</li>
+          <li>React</li>
+          <li>Redux</li>
+        </ul>
+      </section>
+    </main> -->
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
